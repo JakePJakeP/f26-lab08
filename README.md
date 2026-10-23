@@ -90,3 +90,15 @@ python -m campusreserve_analytics revenue --events ../events.jsonl --format csv
 - Where your answers go: `PLAN.md`
 - Guardrail recipes: `guardrails/README.md`
 - CI: `.github/workflows/ci.yml`, which runs the same two commands as above.
+
+## AI tools and models
+
+- Cursor Agent was used for the Task 1 implementation, tests, and the
+  fresh-context refuter pass. The exact provider/model identifier was not
+  recorded by the repository or retained in the handoff.
+- ChatGPT was used for planning and handoff guidance; the conversation export
+  did not expose an exact model identifier.
+- OpenAI Codex desktop (GPT-5) was used to inspect the final repository state,
+  preserve the refuter evidence in `PLAN.md`, clean up the temporary brief,
+  rerun the verification gates, restore permissions, and prepare the final
+  commit and push.
